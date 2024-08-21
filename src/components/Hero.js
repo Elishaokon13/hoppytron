@@ -60,7 +60,7 @@ const HeroSection = () => {
                         <a href="https://www.dextools.io/app/en/tron/pair-explorer/TXVsDoTtgfTN5nuRsa8yhx9eQS8xrtQLED?t=1724086856231" target="_blank" rel="noopener noreferrer">
                             <Image src="/dexscreener.png" alt="Dexscreener" width={40} height={40} />
                         </a>
-                        <a href="https://x.com/HOPPY_TRON" target="_blank" rel="noopener noreferrer">
+                        <a href="https://x.com/Hoppy_Tron?s=09" target="_blank" rel="noopener noreferrer">
                             <Image src="/twitter.png" alt="Twitter" width={40} height={40} />
                         </a>
                         <a href="https://t.me/HOPPY_TRON" target="_blank" rel="noopener noreferrer">
