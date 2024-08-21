@@ -57,9 +57,9 @@ export default function Sponsors() {
             width={350}
             height={100}
           />
-          <div className="flex flex-col gap-10 items-ceter w='full">
+          <div className="flex flex-col gap-10 items-center w-full">
             <h1 className="text-5xl">Roadmap</h1>
-            <div className="p-6 w-[640px] border-[5px] rounded-lg border-white max-w-5xl flex flex-col gap-4">
+            <div className="p-6 border-[5px] rounded-lg border-white max-w-[640px] flex flex-col gap-4">
               <p className="text-2xl">1. Launch on sunpump </p>
               <p className="text-2xl">2. 10% to Justin Sun as top Holders </p>
               <p className="text-2xl">
