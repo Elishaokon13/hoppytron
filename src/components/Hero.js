@@ -25,7 +25,7 @@ const HeroSection = () => {
         {/* Overlay with Text */}
         <animated.div
           style={fadeIn}
-          className="relative z-10 flex flex-col items-center justify-center min-h-screen bg-red-700 bg-opacity-20 p-4 md:p-8"
+          className="relative z-10 flex flex-col items-center justify-center min-h-screen bg-red-700 bg-opacity-20 p-4 md:p-8 overflow-hidden"
         >
           <div className="flex items-center justify-center ">
             <Image

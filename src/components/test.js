@@ -9,7 +9,7 @@ const ImageRowWithSocials = () => {
       className="bg-cover bg-center pt-20 bg-no-repeat py-[100px]"
       style={{ backgroundImage: "url('/bg.png')" }}
     >
-      <div className="container mx-auto  overflow-hidden">
+      <div className="container mx-auto overflow-hidden">
         <Marquee className="gap-8">
           <div className="text-center">
             <Image
