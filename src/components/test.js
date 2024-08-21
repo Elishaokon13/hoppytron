@@ -36,7 +36,7 @@ const ImageRowWithSocials = () => {
                     </div>
                 </Marquee>
             </div>
-            <Tokenomix/>
+            {/* <Tokenomix/> */}
             {/* <Marquee gradient={true} gradientColor="purple" className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-4">
                
                 <div className="text-center">

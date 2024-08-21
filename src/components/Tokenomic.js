@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 export default function Sponsors() {
   return (
-    <div className=" font-hanaleiFill py-4 sm:py-2 mt-10">
+    <div className=" font-hanaleiFill py-4 sm:py-2 bg-red-700 ">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col gap-4">
         {/* <WordPullUp
           className="text-2xl font-bold tracking-[-0.02em] text-white dark:text-black md:text-6xl md:leading-[5rem]"
