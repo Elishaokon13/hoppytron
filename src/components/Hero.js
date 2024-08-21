@@ -49,7 +49,7 @@ const HeroSection = () => {
           </div>
 
           <div className="flex justify-center p-8">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.dextools.io/app/en/tron/pair-explorer/TR3K2eGn8RnRTAsbLPATRmLRr9Yf7mKZoZ?t=1724260085772" target="_blank" rel="noopener noreferrer">
               <button className="px-6 py-3 font-hanaleiFill text-white bg-black rounded font-bold hover:bg-gray-700 transition-colors duration-300">
                 Buy now
               </button>
