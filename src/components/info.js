@@ -35,16 +35,16 @@ const InfoComponent = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <div className="flex flex-col space-y-4">
+        <div className="flex flex-col space-y-4 w-full md:w-1/2">
             <img
               src="/13.png"
               alt="HOPPY Info Graphic 1"
-              className="w-1/2 h-auto object-cover mx-auto"
+              className="w-full md:w-auto h-auto object-cover mx-auto"
             />
             <img
               src="/14.png"
               alt="HOPPY Info Graphic 2"
-              className="w-1/2 h-auto object-cover mx-auto"
+              className="w-full md:w-auto h-auto object-cover mx-auto"
             />
           </div>
         </div>
