@@ -18,7 +18,7 @@ const InfoComponent = () => {
   });
 
   return (
-    <div className="bg-purple-900 font-hanaleiFill text-white py-10 px-6 h-screen flex items-center">
+    <div className="bg-red-700 font-hanaleiFill text-white py-10 px-6 h-screen flex items-center">
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-8 h-full">
         <div className="flex flex-col justify-center space-y-8">
           <h2 className="text-4xl font-bold mb-6">How to Buy $HOPPY</h2>
@@ -35,11 +35,18 @@ const InfoComponent = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <img
-            src="/dj.jpeg"
-            alt="HOPPY Info Graphic"
-            className="w-full h-full object-cover"
-          />
+          <div className="flex flex-col space-y-4">
+            <img
+              src="/13.png"
+              alt="HOPPY Info Graphic 1"
+              className="w-1/2 h-auto object-cover mx-auto"
+            />
+            <img
+              src="/14.png"
+              alt="HOPPY Info Graphic 2"
+              className="w-1/2 h-auto object-cover mx-auto"
+            />
+          </div>
         </div>
       </div>
     </div>

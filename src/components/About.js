@@ -19,9 +19,10 @@ const AboutSection = () => {
 
   const items = [
     <h1 key="title" className="text-3xl sm:text-5xl font-permanentMarker mt-10 font-bold mb-8">What is $HOPPY?</h1>,
-    <p key="description" className="max-w-4xl font-hanaleiFill mx-auto text-lg leading-relaxed mb-8">
-      Tron enthusiasts are embracing HOPPY, moving away from the frog meme trend. Since its inception, HOPPY has become a beloved icon within the crypto community, known for his laid-back and wise demeanor. Created by Matt Furie, this character finally makes its debut on the Tron blockchain. Join our vibrant community on Telegram and enjoy the ride with HOPPY!
+    <p key="description" className="max-w-4xl text-[#9fa91b] font-hanaleiFill mx-auto text-lg leading-relaxed mb-8">
+      Hoppy is an anthropomorphic frog character based on the famous comic book «The Night Riders», published in 2012 by artist and illustrator Matt Furie. Today, this is one of the few characters of Matt Furie that can truly be considered unique.<br/>
 
+Hoppy began his memetic revolution through countless iterations of memes cementing his iconic status, mastering every form with his unparalleled power. With its roots in internet culture, Hoppy infuses humour and meme magic into the world, fostering a movement that unites and makes everyone happy
       <br/>Together, we're unstoppable
     </p>,
     <ImageRowWithSocials key="images" />
@@ -35,8 +36,8 @@ const AboutSection = () => {
 
   return (
     <>
-      <div className="bg-cover bg-center bg-[#cb22f6] bg-no-repeat min-h-screen" style={{ backgroundImage: "url('/bg.png')" }}>
-        <div className="relative min-h-screen w-full text-purple-950 p-8">
+      <div className="bg-cover bg-center bg-red-700 bg-no-repeat min-h-screen" style={{ backgroundImage: "url('/bg.png')" }}>
+        <div className="relative min-h-screen w-full text-white p-8">
           <div className="relative text-center">
             {trail.map((props, index) => (
               <animated.div key={index} style={props}>

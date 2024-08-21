@@ -11,16 +11,28 @@ const ImageRowWithSocials = () => {
                 <Marquee className="grid  grid-cols-1 md:grid-cols-3 gap-8">
                     {/* First Image and Socials */}
                     <div className="text-center">
-                        <Image src="/4.jpg" alt="Image 1" width={250} height={250} className="m-4" />
+                        <Image src="/1.png" alt="Image 1" width={250} height={250} className="m-4" />
                     </div>
 
                     <div className="text-center animate-pulse">
-                        <Image src="/dj.jpeg" alt="Image 2" width={250} height={250} className="m-4" />
+                        <Image src="/3.png" alt="Image 2" width={250} height={250} className="m-4" />
+
+                    </div>
+                    <div className="text-center animate-pulse">
+                        <Image src="/4.png" alt="Image 2" width={250} height={250} className="m-4" />
+
+                    </div>
+                    <div className="text-center animate-pulse">
+                        <Image src="/8.png" alt="Image 2" width={250} height={250} className="m-4" />
+
+                    </div>
+                    <div className="text-center animate-pulse">
+                        <Image src="/7.png" alt="Image 2" width={250} height={250} className="m-4" />
 
                     </div>
                     {/* Second Image and Socials */}
                     <div className="text-center animate-pulse">
-                        <Image src="/smoke.jpeg" alt="Image 2" width={250} height={250} className="m-4" />
+                        <Image src="/4.png" alt="Image 2" width={250} height={250} className="m-4" />
                     </div>
                 </Marquee>
             </div>
