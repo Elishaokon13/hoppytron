@@ -64,8 +64,8 @@ const HeroSection = () => {
               rel="noopener noreferrer"
             >
               <Image
-                src="/dexscreener.png"
-                alt="Dexscreener"
+                src="/dextools.jpeg"
+                alt="Dextools"
                 width={40}
                 height={40}
               />
