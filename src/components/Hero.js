@@ -59,7 +59,7 @@ const HeroSection = () => {
           {/* <Tokenomix/> //replace with video */}
           <div className="flex justify-center space-x-4 md:space-x-8 pt-4">
             <a
-              href="/"
+              href="https://www.dextools.io/app/en/tron/pair-explorer/TR3K2eGn8RnRTAsbLPATRmLRr9Yf7mKZoZ?t=1724260085772"
               target="_blank"
               rel="noopener noreferrer"
             >
