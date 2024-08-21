@@ -18,7 +18,7 @@ const InfoComponent = () => {
   });
 
   return (
-    <div className="bg-red-700 font-hanaleiFill text-white py-10 px-6 h-screen flex items-center">
+    <div className="bg-red-700 font-hanaleiFill text-white px-6 flex items-center">
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-8 h-full">
         <div className="flex flex-col justify-center space-y-8">
           <h2 className="text-4xl font-bold mb-6">How to Buy $HOPPY</h2>

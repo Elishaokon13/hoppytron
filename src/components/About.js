@@ -18,7 +18,7 @@ const AboutSection = () => {
   }, [power]);
 
   const items = [
-    <h1 key="title" className="text-3xl sm:text-5xl font-permanentMarker mt-10 font-bold mb-8">What is $HOPPY?</h1>,
+    <h1 key="title" className="text-3xl sm:text-5xl font-permanentMarker mt-[200px] font-bold mb-8">What is $HOPPY?</h1>,
     <p key="description" className="max-w-4xl text-[#9fa91b] font-hanaleiFill mx-auto text-lg leading-relaxed mb-8">
       Hoppy is an anthropomorphic frog character based on the famous comic book «The Night Riders», published in 2012 by artist and illustrator Matt Furie. Today, this is one of the few characters of Matt Furie that can truly be considered unique.<br/>
 
@@ -36,8 +36,8 @@ Hoppy began his memetic revolution through countless iterations of memes cementi
 
   return (
     <>
-      <div className="bg-cover bg-center bg-red-700 bg-no-repeat min-h-screen" style={{ backgroundImage: "url('/bg.png')" }}>
-        <div className="relative min-h-screen w-full text-white p-8">
+      <div className="bg-cover bg-center bg-red-700 bg-no-repeat " style={{ backgroundImage: "url('/bg.png')" }}>
+        <div className="relative w-full text-white p-8">
           <div className="relative text-center">
             {trail.map((props, index) => (
               <animated.div key={index} style={props}>

@@ -20,7 +20,7 @@ const HeroSection = () => {
             <div className="bg-cover bg-center bg-red-700 bg-no-repeat min-h-screen" style={{ backgroundImage: "url('/')" }}>
                 {/* Overlay with Text */}
                 <animated.div style={fadeIn} className="relative z-10 flex flex-col items-center justify-center h-screen bg-red-700 bg-opacity-20 p-4 md:p-8">
-                <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center mt-[200px]">
                         <Image src="/2.png" alt="Hoppy" width={80} height={80} className="mr-4" />
                         <h1 className="text-[50px] sm:text-[120px] md:text-[100px] lg:text-[180px] text-shadow text-white font-permanentMarker font-extralight text-center">
                             $HOPPY
@@ -30,6 +30,22 @@ const HeroSection = () => {
                     <div className="mt-0 p-2 flex flex-col md:flex-row items-center justify-center font-hanaleiFill text-[#9fa91b] rounded text-sm md:text-2xl font-bold w-full max-w-3xl">
                         <span className="text-center md:text-center"> is on a mission to take over the meme universe. The time has come for Hoppy to show his greatness.</span>
                     </div>
+
+                    <div className="mt-6 w-full max-w-4xl">
+                        <div className="relative" style={{ paddingBottom: '56.25%', maxHeight: '560px' }}>
+                            <iframe
+                                className="absolute top-0 left-0 w-full h-full"
+                                style={{ maxHeight: '560px' }}
+                                src="hero.mp4"
+                                title="Hoppy Video"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe>
+                        </div>
+                    </div>
+
+
                     {/* <Tokenomix/> //replace with video */} 
                     <div className="flex justify-center p-8">
                         <a href="#" target="_blank" rel="noopener noreferrer">

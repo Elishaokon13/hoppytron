@@ -5,7 +5,7 @@ import Tokenomix from "@/components/Tokenomic";
 
 const ImageRowWithSocials = () => {
     return (
-        <div className="bg-cover bg-center pt-20 bg-no-repeat min-h-screen" style={{ backgroundImage: "url('/bg.png')" }}>
+        <div className="bg-cover bg-center pt-20 bg-no-repeat py-[100px]" style={{ backgroundImage: "url('/bg.png')" }}>
             <div className="container mx-auto">
 
                 <Marquee className="grid  grid-cols-1 md:grid-cols-3 gap-8">

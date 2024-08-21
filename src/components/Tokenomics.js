@@ -26,8 +26,8 @@ const TokenomicsSection = () => {
 
     return (
         <>
-            <div className="bg-cover bg-center bg-[#cb22f6] bg-no-repeat min-h-screen" style={{ backgroundImage: "url('/bg.png')" }}>
-                <div className="relative flex font-permanentMarker  flex-col items-center justify-center min-h-screen  text-white p-8">
+            <div className="bg-cover bg-center bg-[#cb22f6] bg-no-repeat" style={{ backgroundImage: "url('/bg.png')" }}>
+                <div className="relative flex font-permanentMarker  flex-col items-center justify-center text-white p-8">
                     <h1 className="text-3xl md:text-5xl font-bold mb-12 md:mb-28 font-permanentMarker">Tokenomics</h1>
 
                     <div className="relative flex items-center animate-pulse justify-center w-full mb-8">
